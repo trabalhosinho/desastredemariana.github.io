@@ -5,16 +5,13 @@
  padding:0;
  }
 body {
- 
     background-image: url("https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTgZ2nJmyavmtA9SGzG2WCMHY_Xw5XLvvj7ZG5W7rIul3B7dVFk")
     }
-  
-   
    
 header {
        padding:20px;
        text-align:center;
-       background-color:#A9A9A9;
+       background-color:#AEB6BF;
        color:white;
        }
        
@@ -22,13 +19,12 @@ header {
  nav {
      float:left;
      font-family: sans-serif;
-     margin:10;
+     margin:7;
      padding: 10px;
      }
     
 article {
       margin-left:140px;
-      border-left:1px solid black;
       padding:1em;
       }
       
@@ -43,7 +39,7 @@ table td, th {
  }
  
 th {
-  heigth: 250px;
+  height: 250px;
  }
  
  tr:nth-child(even){background-color: #f2f2f2}
@@ -51,21 +47,20 @@ th {
     float: left;     
      
 }
- 
+
 h3 {
-   text-decoration:underline;
-   color:#4A708B;
    font-family:"Arial";
-   color:#9AC0CD;
+   color:#90B5E7;
    }
    
 h2 {
+   font-family: "Arial";
    text-decoration:underline;
-   color:#9AC0CD;
+   color:#90B5E7;
    }
  
  h4 {
-  color:#9AC0CD;
+  color:#90B5E7;
   font-family:sans-serif;
   text-align:left;
  }
@@ -76,15 +71,41 @@ footer {
     background-color:#B5B5B5;
     text-align:center;
     }
-header{background-color:black;padding: 0.5em;clear: left;text-align: center;color:white;font-family: sans-serif;
+header {
+          background-color:black;
+          padding: 0.5em;
+          clear: left;
+          text-align: center;
+          color:white;
+          font-family: sans-serif;
 }
-nav{margin-right:0,05;background-color:#696969;float:left;font-family: sans-serif;text-align:center;font-size:20px;overflow:hidden;
-padding-top: 1px;padding-right: 1px;padding-bottom: 100px;padding-left: 1px;
+nav{
+     margin-right:1;
+     background-color:#696969;
+     float:left;
+     font-family: sans-serif;
+     text-align:center;
+     font-size:20px;
+     overflow:hidden;
+     padding-top: 50px; 
+     padding-right: 20px;
+     padding-bottom: 50px;
+     padding-left: 20px;
+     
 }
-a {display:block;text-align:center;padding:18px 16px;color:white;text-decoration:none
+a
+{display:block;
+ text-align:center;
+ padding:18px 16px;
+ color:white;
 }
-a:hover {background-color:#A9A9A9;
+a:hover 
+{background-color:#A9A9A9;
 }
-footer{background-color:black;color:white;text-align:center;padding:1em;
+footer
+{background-color:black;
+ color:white;
+ text-align:center;
+ padding:1em;
 }
 </style>
