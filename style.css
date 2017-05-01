@@ -8,18 +8,11 @@ body {
     background-image: url("https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTgZ2nJmyavmtA9SGzG2WCMHY_Xw5XLvvj7ZG5W7rIul3B7dVFk")
     }
    
-header {
-       padding:20px;
-       text-align:center;
-       background-color:#AEB6BF;
-       color:white;
-       }
-       
    
  nav {
      float:left;
      font-family: sans-serif;
-     margin:7;
+     margin:10;
      padding: 10px;
      }
     
@@ -30,12 +23,12 @@ article {
       
  table {
    border-collapse:collapse;
-   width:60%;
+   width:50%;
  }
 table td, th {
    border: 2px solid black;
    color: #8B8378;
-   padding: 13px;
+   padding: 10px;
  }
  
 th {
@@ -43,9 +36,9 @@ th {
  }
  
  tr:nth-child(even){background-color: #f2f2f2}
+
   img  {
-    float: left;     
-     
+    float: left;         
 }
 
 h3 {
@@ -65,19 +58,13 @@ h2 {
   text-align:left;
  }
    
-footer {
-    padding:1em;
-    color:white;
-    background-color:#B5B5B5;
-    text-align:center;
-    }
 header {
           background-color:black;
-          padding: 0.5em;
           clear: left;
           text-align: center;
           color:white;
           font-family: sans-serif;
+          padding:10px;
 }
 nav{
      margin-right:1;
@@ -87,9 +74,9 @@ nav{
      text-align:center;
      font-size:20px;
      overflow:hidden;
-     padding-top: 50px; 
+     padding-top: 20px; 
      padding-right: 20px;
-     padding-bottom: 50px;
+     padding-bottom: 20px;
      padding-left: 20px;
      
 }
