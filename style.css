@@ -25,7 +25,7 @@ article {
       
  table {
    border-collapse:collapse;
-   width:50%;
+   width:60%;
  }
 table td, th {
    border: 2px solid black;
@@ -34,7 +34,7 @@ table td, th {
  }
  
 th {
-  height: 250px;
+  height: 10px;
  }
  
  tr:nth-child(even){background-color: #f2f2f2}
